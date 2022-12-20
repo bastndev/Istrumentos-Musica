@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="icon" href="src/icon/dev.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>@bastndev</title>
+    <script src="/public/js/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="name"> Guitarra</h2>
+            <a class="buy" href="#">Buy Now</a>
+            <div class="circle"></div>
+            <img class="product" src="/src/img/on1.png" alt="">
+        </div>
+        <!-- Two -->
+        <div class="box">
+            <h2 class="name"> Teclado</h2>
+            <a class="buy" href="#">Buy Now</a>
+            <div class="circle"></div>
+            <img class="productt" src="/src/img/on2.png" alt="">
+        </div>
+        <!-- three -->
+        <div class="box">
+            <h2 class="name"> Saxo</h2>
+            <a class="buy" href="#">Buy Now</a>
+            <div class="circle"></div>
+            <img class="producttt" src="/src/img/on3.png" alt="">
+        </div>
+    </div>
+    <!-- Js Ya tu sabes mi king :v -->
+    <script src="/public/js/vanilla-tilt.min.js" ></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
+    </script>
+</body>
+</html>
